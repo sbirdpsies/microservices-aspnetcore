@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/zhuwei/新加卷/ForStudy/Asp.net/AspdotNetCore/Console/AspdotNetCore.csproj": {}
+  },
+  "projects": {
+    "/media/zhuwei/新加卷/ForStudy/Asp.net/AspdotNetCore/Console/AspdotNetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/zhuwei/新加卷/ForStudy/Asp.net/AspdotNetCore/Console/AspdotNetCore.csproj",
+        "projectName": "AspdotNetCore",
+        "projectPath": "/media/zhuwei/新加卷/ForStudy/Asp.net/AspdotNetCore/Console/AspdotNetCore.csproj",
+        "packagesPath": "/home/zhuwei/.nuget/packages/",
+        "outputPath": "/media/zhuwei/新加卷/ForStudy/Asp.net/AspdotNetCore/Console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zhuwei/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
