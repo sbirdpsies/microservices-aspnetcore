@@ -22,8 +22,8 @@ build:
 deploy:
   steps:
     - internal/docker-push:
-        username: 727801299@qq.com
-        password: Wolffe_2015zw
+        username: $Docker_User
+        password: $Docker_Pwd
         tag: latest
         repository: sbirdpsies/hello-world
         registry: https://registry.hub.docker.com
